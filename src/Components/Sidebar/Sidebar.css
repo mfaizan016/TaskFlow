@@ -1,0 +1,86 @@
+.sidebar {
+  background: #1f1f1f !important;
+  min-height: 100vh;
+}
+
+.sidebar-header {
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.app_name{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-menu {
+  background: transparent;
+  border: none;
+}
+
+.sidebar-menu .ant-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 8px;
+  border-radius: 4px;
+  height: 40px;
+  line-height: 40px;
+  
+}
+
+.sidebar-menu .ant-menu-item-selected {
+  background: rgba(74, 158, 255, 0.2) !important;
+  color: #4a9eff !important;
+}
+
+.sidebar-menu .ant-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.menu-label {
+  flex: 1;
+}
+
+.task-count {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-footer .ant-btn {
+  color: #4a9eff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.sidebar-footer .ant-btn:hover {
+  color: #ece6e6 !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-menu-dark .ant-menu-item-divider {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 8px 16px;
+}

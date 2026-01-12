@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2d2d2d;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.ant-layout {
+  background: #2d2d2d;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(94, 92, 92, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Ant Design dark theme overrides */
+.ant-modal-content {
+  background: #e6e0e0;
+}
+
+.ant-modal-header {
+  background: #868383;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ant-modal-title {
+  color: #fff;
+}
+
+.ant-modal-close {
+  color: #999;
+}
+
+.ant-modal-close:hover {
+  color: #fff;
+}
+
+.ant-input {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.ant-input:hover,
+.ant-input:focus {
+  border-color: #4a9eff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.ant-btn-primary {
+  background: #4a9eff;
+  border-color: #4a9eff;
+}
+
+.ant-btn-primary:hover {
+  background: #6bb0ff;
+  border-color: #6bb0ff;
+}
