@@ -147,7 +147,7 @@ const Sidebar = () => {
             />
           </div>
           <div className="app_name">
-            <h1>TASKFLOW</h1>
+            {!collapsed && <h1>TASKFLOW</h1>}
           </div>
         </div>
 
