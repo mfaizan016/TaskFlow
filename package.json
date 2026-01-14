@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mfaizan016.github.io/TaskFlow/",
+  "homepage": "https://mfaizan016.github.io/TaskFlow",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
